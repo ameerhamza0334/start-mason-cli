@@ -1,0 +1,23 @@
+{
+  "name": "startmason-cli",
+  "version": "0.0.1",
+  "description": "startmason cli to create boilerplate node.js api projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mason": "./index.js"
+  },
+  "keywords": [
+    "mason"
+  ],
+  "author": "ameer hamza",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "winston": "^3.10.0",
+    "yargs": "^17.7.2"
+  }
+}
